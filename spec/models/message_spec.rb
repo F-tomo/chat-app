@@ -7,7 +7,6 @@ RSpec.describe Message, type: :model do
     end
 
     it 'contentとimageが存在していれば保存できること' do
-
       expect(@message).to be_valid
     end
     it 'contentが空でも保存できること' do
